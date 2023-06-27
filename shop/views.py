@@ -11,3 +11,4 @@ class CategoryView(APIView):
         queryset = Category.objects.all()
         serializer = CategorySerializer(queryset, many=True)
         return Response(serializer.data)
+        #test P1C3 exo
